@@ -4,118 +4,94 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Projeto Portfólio">
-		<meta name="author" content="Generation Brasil">
+		<meta name="author" content="Luan Lazarine">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+	    <link rel="icon" href="./assets/img/favicon.svg" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
 		<title>Meu Perfil</title>
 	</head>
 	<body>
-		<!-- Cabeçalho da Página (header) -->
 		<header>
-			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
-				<!-- Titulo do Cabeçalho -->
-				<div id="titulo">
-					<!-- Seu nome -->
-					<h1>Generation Brasil</h1>
-				</div>
-
-				<!-- Conteudo do Menu da Página (header) -->
-				<div id="menu">
-					<!-- Menu da Página -->
-					<nav>
-						<!-- Marcadores não ordenados + links -->
-						<ul id="menu">
-							<li>
-								<a href="index.html"> Home </a>
-							</li>
-							<li>
-								<a href="contato.html"> Contato </a>
-							</li>
-						</ul>
-					</nav>
-				</div>
+		  <div id="header_content">
+			<div id="titulo">
+			   <h1>Luan Lazarine</h1>
 			</div>
+
+			<div id="menu">
+			  <nav>
+				<ul id="menu">
+				   <li><a href="index.html"> Home </a></li>
+				   <li><a href="contato.html"> Contato </a></li>
+				</ul>
+			  </nav>
+			</div>
+		  </div>
 		</header>
 
-		<!-- Seção Principal da Página (main) -->
 		<main>
-
-			<!-- Seção Sobre você -->
 			<section id="about">
-
-				<!-- Título da Seção -->
-				<h2>Sobre a Generation Brasil</h2>
-
-				<!-- Conteúdo da Seção -->
-				<div id="conteudo">
-
-					<!-- Imagem do criador do conteúdo -->
+			  <h2>Sobre o Luan Lazarine</h2>
+				
+			    <div id="conteudo"> 
 					<img
-						src="./assets/img/user_01.svg"
+						src="./assets/img/luan.jpg"
 						alt="Foto do criador desse conteudo"
+						class="img_profile"
 					/>
-
-					<!-- Texto sobre o criador do conteúdo -->
 					<article id="sobre_texto">
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Voluptatem odio possimus, dolorem earum atque
-							itaque quas soluta placeat iure omnis porro cum
-							debitis sequi libero! Deleniti vitae quis hic
-							cumque. Lorem ipsum, dolor sit amet consectetur
-							adipisicing elit. Eius inventore ullam, quia
-							deserunt enim cumque hic officia repudiandae ad ab
-							et sapiente qui vitae accusamus adipisci provident
-							sit assumenda laboriosam!
-						</p>
-					</article>
+                     <p>
+                        Sou estudante do Bootcamp Generation Brasil, com foco em linguagem Java
+						e busco oportunidade como desenvolvedor júnior em front-end, com o 
+						objetivo de criar sites institucionais e E-commerces de forma segura.
+                     </p>
+                    <p>
+                        Sou dinamico, proativo e comunicativo, com otima capacidade de
+                        resolução de problemas e rápida adaptação a novas tecnologias.
+                        Estudo bootcamps e cursos certificados, desenvolvendo autodisciplina
+			            para planejar e aprender qualquer ferramenta que o projeto demandar.
+					</p>
+				   </article>
 				</div>
 			</section>
 
-			<!-- Seção contendo um vídeo de sua preferência -->
-			<section id="video">
-				
-				<!-- Título da Seção -->
+			<section id="video" class="flex_start">
 				<h2>Meu vídeo favorito:</h2>
 
-				<!-- Vídeo da Seção -->
-				<div class="youtube">
+				<div id="youtube" class="flex">
 					<iframe
 						width="560"
 						height="315"
-						src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
+						src="https://www.youtube.com/watch?v=S3jrVFLnHyo"
+						title="YouTube video player - 2030"
 						frameborder="0"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
 					></iframe>
 				</div>
-
 			</section>
-
 		</main>
 
-		<!-- Rodapé da Página (footer) -->
-		<footer>
-
-			<!-- Seção de Contato - Redes Sociais-->
-            <section id="redes_sociais">
-
-                    <a href="">
-                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/github.svg" alt="Github" />
-                    </a>
-                    <a href="">
-                        <img src="assets/img/instagram.svg" alt="Instagram" />
-                    </a>
-
-            </section>
-
-			<h3>
-				Feito com 🧡 por Generation Brasil - 2024
-			</h3>
-
-		</footer>
-	</body>
+		 <footer class="flex contato_footer">
+      <section id="redes_sociais">
+        <a href="https://www.linkedin.com/in/luanlazarine/">
+          <img
+            src="./assets/img/linkedin.svg"
+            alt="LinkedIn"
+            class="social_icon"
+          />
+        </a>
+        <a href="https://github.com/Lazarine1996">
+          <img src="./assets/img/github.svg" alt="Github" class="social_icon" />
+        </a>
+        <a href="https://www.instagram.com/lazarinee/">
+          <img
+            src="./assets/img/instagram.svg"
+            alt="Instagram"
+            class="social_icon"
+          />
+        </a>
+      </section>
+      <h3>Feito por Luan Lazarine - 2025</h3>
+    </footer>
+  </body>
 </html>
